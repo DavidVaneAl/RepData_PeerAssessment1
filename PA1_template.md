@@ -155,6 +155,9 @@ ggplot(act.day, aes(sum_steps)) + geom_histogram(aes(sum_steps), binwidth = 3028
         geom_vline(data = central_values, aes(xintercept = value, 
                                               color = measurement), size = 2) +
         scale_color_manual(values = c("red", "orange"), name = NULL)
+        
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+
 ```
 
 <br>
